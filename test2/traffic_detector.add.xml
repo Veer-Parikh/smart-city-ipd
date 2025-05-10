@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+    <!-- NORTH (N2C) -->
+    <inductionLoop id="detector_N2C_0" lane="N2C_0" pos="-10" freq="30" file="det_N2C_0.xml"/>
+    <inductionLoop id="detector_N2C_1" lane="N2C_1" pos="-20" freq="30" file="det_N2C_1.xml"/>
+    <inductionLoop id="detector_N2C_2" lane="N2C_0" pos="-30" freq="30" file="det_N2C_2.xml"/>
+    <inductionLoop id="detector_N2C_3" lane="N2C_1" pos="-40" freq="30" file="det_N2C_3.xml"/>
+    <inductionLoop id="detector_N2C_4" lane="N2C_0" pos="-50" freq="30" file="det_N2C_4.xml"/>
+    <inductionLoop id="detector_N2C_5" lane="N2C_1" pos="-60" freq="30" file="det_N2C_5.xml"/>
+
+    <!-- SOUTH (S2C) -->
+    <inductionLoop id="detector_S2C_0" lane="S2C_0" pos="-10" freq="30" file="det_S2C_0.xml"/>
+    <inductionLoop id="detector_S2C_1" lane="S2C_1" pos="-20" freq="30" file="det_S2C_1.xml"/>
+    <inductionLoop id="detector_S2C_2" lane="S2C_0" pos="-30" freq="30" file="det_S2C_2.xml"/>
+    <inductionLoop id="detector_S2C_3" lane="S2C_1" pos="-40" freq="30" file="det_S2C_3.xml"/>
+    <inductionLoop id="detector_S2C_4" lane="S2C_0" pos="-50" freq="30" file="det_S2C_4.xml"/>
+    <inductionLoop id="detector_S2C_5" lane="S2C_1" pos="-60" freq="30" file="det_S2C_5.xml"/>
+
+    <!-- EAST (E2C) -->
+    <inductionLoop id="detector_E2C_0" lane="E2C_0" pos="-10" freq="30" file="det_E2C_0.xml"/>
+    <inductionLoop id="detector_E2C_1" lane="E2C_1" pos="-20" freq="30" file="det_E2C_1.xml"/>
+    <inductionLoop id="detector_E2C_2" lane="E2C_0" pos="-30" freq="30" file="det_E2C_2.xml"/>
+    <inductionLoop id="detector_E2C_3" lane="E2C_1" pos="-40" freq="30" file="det_E2C_3.xml"/>
+    <inductionLoop id="detector_E2C_4" lane="E2C_0" pos="-50" freq="30" file="det_E2C_4.xml"/>
+    <inductionLoop id="detector_E2C_5" lane="E2C_1" pos="-60" freq="30" file="det_E2C_5.xml"/>
+
+    <!-- WEST (W2C) -->
+    <inductionLoop id="detector_W2C_0" lane="W2C_0" pos="-10" freq="30" file="det_W2C_0.xml"/>
+    <inductionLoop id="detector_W2C_1" lane="W2C_1" pos="-20" freq="30" file="det_W2C_1.xml"/>
+    <inductionLoop id="detector_W2C_2" lane="W2C_0" pos="-30" freq="30" file="det_W2C_2.xml"/>
+    <inductionLoop id="detector_W2C_3" lane="W2C_1" pos="-40" freq="30" file="det_W2C_3.xml"/>
+    <inductionLoop id="detector_W2C_4" lane="W2C_0" pos="-50" freq="30" file="det_W2C_4.xml"/>
+    <inductionLoop id="detector_W2C_5" lane="W2C_1" pos="-60" freq="30" file="det_W2C_5.xml"/>
+
+</additional>

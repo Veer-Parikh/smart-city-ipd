@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="C" type="static" programID="custom" offset="0">
+        <!-- Northbound Green -->
+        <phase duration="30" state="GGGGrrrrrrrrrrrr"/>
+        <phase duration="4"  state="yyyyrrrrrrrrrrrr"/>
+
+        <!-- Eastbound Green -->
+        <phase duration="30" state="rrrrGGGGrrrrrrrr"/>
+        <phase duration="4"  state="rrrryyyyrrrrrrrr"/>
+
+        <!-- Southbound Green -->
+        <phase duration="30" state="rrrrrrrrGGGGrrrr"/>
+        <phase duration="4"  state="rrrrrrrryyyyrrrr"/>
+
+        <!-- Westbound Green -->
+        <phase duration="30" state="rrrrrrrrrrrrGGGG"/>
+        <phase duration="4"  state="rrrrrrrrrrrryyyy"/>
+    </tlLogic>
+</additional>

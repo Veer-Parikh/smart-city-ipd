@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicle Types -->
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5.0" minGap="2.5" maxSpeed="16.67" guiShape="passenger"/>
+    <vType id="bus" accel="1.2" decel="2.5" sigma="0.5" length="12.0" minGap="2.5" maxSpeed="13.89" guiShape="bus"/>
+    <vType id="motorbike" accel="4.0" decel="7.0" sigma="0.5" length="2.0" minGap="1.0" maxSpeed="20.0" guiShape="motorcycle"/>
+    <vType id="autorickshaw" accel="3.0" decel="5.0" sigma="0.5" length="3.0" minGap="1.5" maxSpeed="13.89" guiShape="rickshaw"/>
+
+    <!-- Routes -->
+    <route id="N2S" edges="N2C C2S"/>
+    <route id="N2E" edges="N2C C2E"/>
+    <route id="N2W" edges="N2C C2W"/>
+    <route id="S2N" edges="S2C C2N"/>
+    <route id="S2E" edges="S2C C2E"/>
+    <route id="S2W" edges="S2C C2W"/>
+    <route id="E2W" edges="E2C C2W"/>
+    <route id="E2N" edges="E2C C2N"/>
+    <route id="E2S" edges="E2C C2S"/>
+    <route id="W2E" edges="W2C C2E"/>
+    <route id="W2N" edges="W2C C2N"/>
+    <route id="W2S" edges="W2C C2S"/>
+
+    <!-- North -->
+    <flow id="flow_N2S" type="car" route="N2S" begin="0" number="180" period="1.5" departLane="1" departPos="base" departSpeed="max"/>
+    <flow id="flow_N2E" type="car" route="N2E" begin="0" number="120" period="2.5" departLane="1" departPos="base" departSpeed="max"/>
+    <flow id="flow_N2W" type="car" route="N2W" begin="0" number="90" period="2.8" departLane="0" departPos="base" departSpeed="max"/>
+    <flow id="flow_N2S_motorbike" type="motorbike" route="N2S" begin="0" number="100" period="1.8" departLane="1" departPos="base" departSpeed="max"/>
+    <flow id="flow_N2S_bus" type="bus" route="N2S" begin="0" number="40" period="3.5" departLane="1" departPos="base" departSpeed="max"/>
+    <flow id="flow_N2S_autorickshaw" type="autorickshaw" route="N2S" begin="0" number="70" period="2.2" departLane="0" departPos="base" departSpeed="max"/>
+
+    <!-- East -->
+    <flow id="flow_E2W" type="car" route="E2W" begin="0" number="100" period="2.0" departLane="1" departPos="base" departSpeed="max"/>
+    <flow id="flow_E2N" type="car" route="E2N" begin="0" number="50" period="3.0" departLane="1" departPos="base" departSpeed="max"/>
+    <flow id="flow_E2S" type="car" route="E2S" begin="0" number="60" period="2.6" departLane="0" departPos="base" departSpeed="max"/>
+    <flow id="flow_E2W_autorickshaw" type="autorickshaw" route="E2W" begin="0" number="30" period="3.2" departLane="0" departPos="base" departSpeed="max"/>
+
+    <!-- South -->
+    <flow id="flow_S2N" type="car" route="S2N" begin="0" number="140" period="1.7" departLane="1" departPos="base" departSpeed="max"/>
+    <flow id="flow_S2E" type="car" route="S2E" begin="0" number="80" period="2.4" departLane="0" departPos="base" departSpeed="max"/>
+    <flow id="flow_S2W" type="car" route="S2W" begin="0" number="90" period="2.0" departLane="1" departPos="base" departSpeed="max"/>
+    <flow id="flow_S2N_motorbike" type="motorbike" route="S2N" begin="0" number="60" period="2.5" departLane="0" departPos="base" departSpeed="max"/>
+    <flow id="flow_S2N_autorickshaw" type="autorickshaw" route="S2N" begin="0" number="50" period="3.0" departLane="0" departPos="base" departSpeed="max"/>
+
+    <!-- West -->
+    <flow id="flow_W2E" type="car" route="W2E" begin="0" number="160" period="1.4" departLane="1" departPos="base" departSpeed="max"/>
+    <flow id="flow_W2N" type="car" route="W2N" begin="0" number="70" period="2.7" departLane="0" departPos="base" departSpeed="max"/>
+    <flow id="flow_W2S" type="car" route="W2S" begin="0" number="80" period="2.2" departLane="1" departPos="base" departSpeed="max"/>
+    <flow id="flow_W2E_bus" type="bus" route="W2E" begin="0" number="25" period="3.6" departLane="1" departPos="base" departSpeed="max"/>
+    <flow id="flow_W2E_motorbike" type="motorbike" route="W2E" begin="0" number="55" period="2.1" departLane="0" departPos="base" departSpeed="max"/>
+</routes>

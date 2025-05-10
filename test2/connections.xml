@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <!-- North to Center connections -->
+    <!-- Left lane (index 0) can go left or straight -->
+    <connection from="N2C" to="C2W" fromLane="0" toLane="0"/>
+    <connection from="N2C" to="C2S" fromLane="0" toLane="0"/>
+    
+    <!-- Right lane (index 1) can go straight or right -->
+    <connection from="N2C" to="C2S" fromLane="1" toLane="1"/>
+    <connection from="N2C" to="C2E" fromLane="1" toLane="0"/>
+    
+    <!-- South to Center connections -->
+    <!-- Left lane (index 0) can go left or straight -->
+    <connection from="S2C" to="C2E" fromLane="0" toLane="0"/>
+    <connection from="S2C" to="C2N" fromLane="0" toLane="0"/>
+    
+    <!-- Right lane (index 1) can go straight or right -->
+    <connection from="S2C" to="C2N" fromLane="1" toLane="1"/>
+    <connection from="S2C" to="C2W" fromLane="1" toLane="0"/>
+    
+    <!-- East to Center connections -->
+    <!-- Left lane (index 0) can go left or straight -->
+    <connection from="E2C" to="C2S" fromLane="0" toLane="0"/>
+    <connection from="E2C" to="C2W" fromLane="0" toLane="0"/>
+    
+    <!-- Right lane (index 1) can go straight or right -->
+    <connection from="E2C" to="C2W" fromLane="1" toLane="1"/>
+    <connection from="E2C" to="C2N" fromLane="1" toLane="0"/>
+    
+    <!-- West to Center connections -->
+    <!-- Left lane (index 0) can go left or straight -->
+    <connection from="W2C" to="C2N" fromLane="0" toLane="0"/>
+    <connection from="W2C" to="C2E" fromLane="0" toLane="0"/>
+    
+    <!-- Right lane (index 1) can go straight or right -->
+    <connection from="W2C" to="C2E" fromLane="1" toLane="1"/>
+    <connection from="W2C" to="C2S" fromLane="1" toLane="0"/>
+</connections>

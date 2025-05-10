@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewsettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/viewsettings_file.xsd">
+    <viewport zoom="150" x="0" y="0" angle="0"/>
+    <scheme name="real world"/>
+    <delay value="100"/>
+    <decal file="urban_background.jpg" centerX="0" centerY="0" centerZ="0" width="500" height="500" altitude="0" rotation="0"/>
+</viewsettings>

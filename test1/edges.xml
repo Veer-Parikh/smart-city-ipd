@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <!-- North to Center (incoming) -->
+    <edge id="N2C" from="N" to="C" priority="1" numLanes="2" speed="13.89">
+        <lane index="0" allow="all" width="3.20"/>
+        <lane index="1" allow="all" width="3.20"/>
+    </edge>
+    
+    <!-- Center to North (outgoing) -->
+    <edge id="C2N" from="C" to="N" priority="1" numLanes="2" speed="13.89">
+        <lane index="0" allow="all" width="3.20"/>
+        <lane index="1" allow="all" width="3.20"/>
+    </edge>
+    
+    <!-- South to Center (incoming) -->
+    <edge id="S2C" from="S" to="C" priority="1" numLanes="2" speed="13.89">
+        <lane index="0" allow="all" width="3.20"/>
+        <lane index="1" allow="all" width="3.20"/>
+    </edge>
+    
+    <!-- Center to South (outgoing) -->
+    <edge id="C2S" from="C" to="S" priority="1" numLanes="2" speed="13.89">
+        <lane index="0" allow="all" width="3.20"/>
+        <lane index="1" allow="all" width="3.20"/>
+    </edge>
+    
+    <!-- East to Center (incoming) -->
+    <edge id="E2C" from="E" to="C" priority="1" numLanes="2" speed="13.89">
+        <lane index="0" allow="all" width="3.20"/>
+        <lane index="1" allow="all" width="3.20"/>
+    </edge>
+    
+    <!-- Center to East (outgoing) -->
+    <edge id="C2E" from="C" to="E" priority="1" numLanes="2" speed="13.89">
+        <lane index="0" allow="all" width="3.20"/>
+        <lane index="1" allow="all" width="3.20"/>
+    </edge>
+    
+    <!-- West to Center (incoming) -->
+    <edge id="W2C" from="W" to="C" priority="1" numLanes="2" speed="13.89">
+        <lane index="0" allow="all" width="3.20"/>
+        <lane index="1" allow="all" width="3.20"/>
+    </edge>
+    
+    <!-- Center to West (outgoing) -->
+    <edge id="C2W" from="C" to="W" priority="1" numLanes="2" speed="13.89">
+        <lane index="0" allow="all" width="3.20"/>
+        <lane index="1" allow="all" width="3.20"/>
+    </edge>
+</edges>
